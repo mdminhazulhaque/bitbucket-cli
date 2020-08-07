@@ -26,6 +26,14 @@ $ export BITBUCKET_AUTH=mdminhazulhaque:CnxnwA104TRuW4LVyw6ew
 
 The utility uses official [Bitbucket REST API](https://developer.atlassian.com/bitbucket/api/2/reference/resource/)
 
+## Install
+
+```
+pip3 install -r requirements.txt
+```
+
+Then put `bitbucket-cli.py` in `$PATH`. Can rename it to `bb` or `bitbucket-cli` or anything you wish.
+
 ## Synopsis
 
 ### List Repositories
