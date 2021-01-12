@@ -39,7 +39,7 @@ Then put `bitbucket-cli.py` in `$PATH`. Can rename it to `bb` or `bitbucket-cli`
 ### List Repositories
 
 ```bash
-$ bitbucket-cli list -w myworkspace
+$ bitbucket-cli repos -w myworkspace
 frontend-v2
 frontend-v1
 awesome-api
